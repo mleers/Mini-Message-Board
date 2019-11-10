@@ -5,3 +5,5 @@ Tools used to create this project:
 * bulma css framework for styling
 * nodemon used for live page refresh for development purposes
 * Heroku to host the live project
+
+The live app can be viewed here: https://stormy-thicket-57878.herokuapp.com/
