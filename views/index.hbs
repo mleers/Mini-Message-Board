@@ -1,0 +1,20 @@
+<h1 class="title">Message Board</h1>
+<hr>
+{{#if messages}}   
+    {{#each messages as |message|}}
+        <div class="box">
+            <p>
+                Message: "{{message.text}}"
+            </p>
+            <p>
+                Added by: <strong>{{message.user}}</strong>
+            </p>
+            <p>
+                Added on: {{message.added}}
+
+            </p>
+        </div>
+    {{/each}}
+{{else}}
+    <h3>No messages currently</h3>
+{{/if}}
